@@ -1,0 +1,16 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="text_margin_top">16dp</dimen>
+    <dimen name="text_margin_bottom">16dp</dimen>
+    <dimen name="text_size">18dp</dimen>
+    <dimen name="text_size_title">24dp</dimen>
+    <dimen name="textView_margin">12dp</dimen>
+    <dimen name="datePicker_height">160dp</dimen>
+    <dimen name="datePickerMarginTop">5dp</dimen>
+    <dimen name="datePickerMarginBottom">5dp</dimen>
+    <dimen name="datePickerElevation">5dp</dimen>
+    <dimen name="datePickerElevationHighLight">10dp</dimen>
+
+</resources>

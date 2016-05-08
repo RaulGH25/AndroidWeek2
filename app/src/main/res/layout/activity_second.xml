@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context=".MainActivity">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+
+            <TextView
+                android:id="@+id/TextViewTitulo2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/Titulo2Str"
+                android:theme="@style/MyTextView2Title"
+                android:layout_marginTop="@dimen/textView_margin"
+                android:layout_marginBottom="@dimen/textView_margin"/>
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="@dimen/textView_margin"
+                android:layout_marginBottom="@dimen/textView_margin">
+
+                <TextView
+                    android:id="@+id/TextViewName2a"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="3"
+                    android:text="@string/Name2aStr"
+                    android:theme="@style/MyTextView2"
+                    android:layout_gravity="center_vertical"/>
+
+                <TextView
+                    android:id="@+id/TextViewName2b"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:text="@string/Name2bStr"
+                    android:theme="@style/MyTextView2"
+                    android:layout_gravity="center_vertical"/>
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="@dimen/textView_margin"
+                android:layout_marginBottom="@dimen/textView_margin">
+
+                <TextView
+                    android:id="@+id/TextViewDate2a"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="3"
+                    android:text="@string/Date2aStr"
+                    android:theme="@style/MyTextView2"
+                    android:layout_gravity="center_vertical"/>
+
+                <TextView
+                    android:id="@+id/TextViewDate2b"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:text="@string/Date2bStr"
+                    android:theme="@style/MyTextView2"
+                    android:layout_gravity="center_vertical"/>
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="@dimen/textView_margin"
+                android:layout_marginBottom="@dimen/textView_margin">
+
+                <TextView
+                    android:id="@+id/TextViewPhone2a"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="3"
+                    android:text="@string/Phone2aStr"
+                    android:theme="@style/MyTextView2"
+                    android:layout_gravity="center_vertical"/>
+
+                <TextView
+                    android:id="@+id/TextViewPhone2b"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:text="@string/Phone2bStr"
+                    android:theme="@style/MyTextView2"
+                    android:layout_gravity="center_vertical"/>
+
+            </LinearLayout>
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="@dimen/textView_margin"
+                android:layout_marginBottom="@dimen/textView_margin">
+
+                <TextView
+                    android:id="@+id/TextViewEmail2a"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="3"
+                    android:text="@string/Email2aStr"
+                    android:theme="@style/MyTextView2"
+                    android:layout_gravity="center_vertical"/>
+
+                <TextView
+                    android:id="@+id/TextViewEmail2b"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:text="@string/Email2bStr"
+                    android:theme="@style/MyTextView2"
+                    android:layout_gravity="center_vertical"/>
+
+            </LinearLayout>
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="@dimen/textView_margin"
+                android:layout_marginBottom="@dimen/textView_margin">
+
+                <TextView
+                    android:id="@+id/TextViewDescription2a"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="3"
+                    android:text="@string/Description2aStr"
+                    android:theme="@style/MyTextView2"
+                    android:layout_gravity="center_vertical"/>
+
+                <TextView
+                    android:id="@+id/TextViewDescription2b"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:text="@string/Description2bStr"
+                    android:theme="@style/MyTextView2"
+                    android:layout_gravity="center_vertical"/>
+
+            </LinearLayout>
+
+
+
+
+
+            <Button
+                android:id="@+id/button2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/button2Str"
+                android:theme="@style/MyRaisedButton"
+                android:layout_marginTop="@dimen/textView_margin"/>
+
+
+        </LinearLayout>
+
+
+
+
+    </FrameLayout>
+
+
+
+
+</android.support.design.widget.CoordinatorLayout>
